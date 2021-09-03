@@ -64,7 +64,7 @@ def getCipherResult(file_dir: str, model_name: str, args):
     """
     args.change_crypto_list(DM.concat(args.crypto_list))
     # 读文件夹  得到两个list [文件名],[大小]
-    file_list, file_size = read_raw_files(file_dir)  # './static/CiphertestFile/test/'
+    file_list, file_size = read_raw_files(file_dir)  # './static/CiphertextFile/test/'
     timestamp = time.localtime()
     # 开始执行核心分类功能
     if model_name == 'SVM' or model_name == 'RF':
@@ -159,11 +159,11 @@ if __name__ == '__main__':
     # 模型训练
     # args1 = Args(['3DES', 'AES', 'Blowfish', 'RSA'], 4, 1024, col_name=['data_frame'], batch=500, epoch=40, ratio=0.8,
     #              save_mode='para')
-    # getTrainedModel('./static/CiphertestFile/Test/', 'CNN-SVM', args1)
+    # getTrainedModel('./static/CiphertextFile/Test/', 'CNN-SVM', args1)
     #
     # 模型验证
     args = Args(['3DES', 'AES', 'Blowfish', 'RSA'], 4, 1024, ['data_frame'], save_mode='para')
-    getCipherResult('./static/CiphertestFile/Test/Test/', 'CNN-SVM', args)
+    getCipherResult('static/CiphertextFile/Test/Test/', 'CNN-SVM', args)
 
     # time_end = time.time()
     # print('totally cost', time_end - time_start)
