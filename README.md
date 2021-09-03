@@ -17,7 +17,8 @@ already provided.
  The format of data to offer is:  _which **ciphertext file** for which **encryption algorithms** is in which **folder**_.     
  e.g. If you have 2 kinds of ciphertexts, one is encrypt by AES  and other is by 3DES, then put these ciphertexts into 
  corresponding folder named `./static/CiphertextFile/AES/` `./static/CiphertextFile/3DES`.
- (This means you want to train a model by yourself so you should)    
+ (This means you want to train a model by yourself so you should load data.)    
+ 
  4. For 2 and 3 you can unzip the compressed files `self_model.zip`, `trained_model.zip`.    
  5. You really can understand the meanings simply through its name.
 
