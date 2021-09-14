@@ -15,7 +15,7 @@ already provided.
  in `./static/CiphertextFile/` .  
     
  The format of data to offer is:  _which **ciphertext file** for which **encryption algorithms** is in which **folder**_.     
- e.g. If you have 2 kinds of ciphertexts, one is encrypt by AES  and other is by 3DES, then put these ciphertexts into 
+ e.g. If you have 2 kinds of ciphertexts, one is encrypted by AES  and other is by 3DES, then put these ciphertexts into 
  corresponding folder named `./static/CiphertextFile/AES/` `./static/CiphertextFile/3DES`.
  (This means you want to train a model by yourself so you should load data.)    
  
