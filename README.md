@@ -23,7 +23,7 @@ already provided.
  5. You really can understand the meanings simply through its name.
 
 ## Acknowledgment
- This work is complete by author and his team.    
+ This work is completed by author and his team.    
  Thanks our professor XiangGuangLi.    
  Thanks my friends MoLi and Matthew.
 
