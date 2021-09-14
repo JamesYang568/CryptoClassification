@@ -1,0 +1,10 @@
+matplotlib
+numpy==1.20.3
+pandas
+scikit-learn==0.24.1
+scipy
+six==1.15.0
+sklearn
+torch==1.6.0
+torchvision==0.7.0
+python>=3.6
