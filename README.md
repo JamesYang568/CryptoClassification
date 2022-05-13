@@ -22,12 +22,8 @@ already provided.
  4. For 2 and 3 you can unzip the compressed files `self_model.zip`, `trained_model.zip`.    
  5. You really can understand the meanings simply through its name.
 
-## Acknowledgment
- This work is completed by author and his team.    
- Thanks our professor XiangGuangLi.    
- Thanks my friends MoLi and Matthew.
+## Acknowledgment  
+ Thanks Prof. GuangLi Xiang.    
 
 ## Contact
- yangjiaxiong@whut.edu.cn     
- or    
  2625398619@qq.com
